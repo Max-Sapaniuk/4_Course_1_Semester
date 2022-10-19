@@ -144,9 +144,10 @@ def lowerCrossing(A, mat, n):
 
 A = list(range(1, 21))
 n = 9
-print("Множина А:")
+print("Множина А")
 print(A)
 mat = createMatrix(A, '<=')
+# printMatrix(mat)
 upperCrossing(A, mat, n)
 lowerCrossing(A, mat, n)
 print()
