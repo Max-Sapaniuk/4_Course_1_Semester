@@ -142,8 +142,8 @@ def lowerCrossing(A, mat, n):
     print(f"Нижній перетин {res}")
 
 
-A = list(range(1, 21))
-n = 9
+A = list(range(1, 11))
+n = 2
 print("Множина А")
 print(A)
 mat = createMatrix(A, '<=')
